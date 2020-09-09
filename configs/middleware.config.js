@@ -4,7 +4,7 @@ const logger = require('morgan')
 
 const cors = require('cors')
 
-const whitelist = [process.env.PUBLIC_DOMAIN]
+const whitelist = [process.env.PUBLIC_DOMAIN, "https: //go-ride-d9ff1.web.app"]
 const corsOptions = {
     origin: (origin, cb) => {
         const originIsWhitelisted = whitelist.includes(origin)
