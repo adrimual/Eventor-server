@@ -4,15 +4,6 @@ const logger = require('morgan')
 
 const cors = require('cors')
 
-const whitelist = [process.env.PUBLIC_DOMAIN, "https: //go-ride-d9ff1.web.app"]
-const corsOptions = {
-    origin: (origin, cb) => {
-        const originIsWhitelisted = whitelist.includes(origin)
-        cb(null, originIsWhitelisted)
-    },
-    credentials: true
-}
-
 module.exports = app => {
     app.use(logger('dev'))
     app.use(bodyParser.json())
@@ -20,5 +11,8 @@ module.exports = app => {
         extended: false
     }))
     app.use(cookieParser())
-    app.use(cors(corsOptions))
+    app.use(cors({
+        credentials: true,
+        origin: [process.env.PUBLIC_DOMAIN, "https://go-ride-d9ff1.web.app"]
+    }))
 }
