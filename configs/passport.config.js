@@ -25,7 +25,6 @@ module.exports = app => {
     })
 
 
-
     app.use(flash())
 
     passport.use(new LocalStrategy({ passReqToCallback: true }, (req, username, password, next) => {

@@ -74,7 +74,6 @@ router.get('/getAllEvents', (req, res, next) => {
         .find()
         .then(response => res.json(response))
         .catch(err => next(err))
-
 })
 //get all future events
 router.get('/getAllFutureEvents', (req, res, next) => {
