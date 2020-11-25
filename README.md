@@ -1,11 +1,10 @@
-# GoRide
+# Eventor
 
 
 
 ## Description
 
-If you enjoy driving, GoRide is your App. Here you will be able to create or join driving events, where you can meet new people, go for a route, enjoy a meeting with others... It does not matter if you ride car or motorbike, GoRide is made for everyone.
-
+If you enjoy making plans, Eventor is your App. Here you will be able to create or join events, where you can meet new people, enjoy the events created by the users and try new things.
 
 
 ## User Stories
@@ -27,9 +26,9 @@ If you enjoy driving, GoRide is your App. Here you will be able to create or joi
 
 ## Repository links
 
-**Go-Ride client:** https://github.com/adrimual/Go-Ride-cli
+**Eventor client:** https://github.com/adrimual/Eventor-cli
 
-**Go-Ride server:** https://github.com/adrimual/Go-Ride-server
+**Eventor server:** https://github.com/adrimual/Eventor-server
 
 ## Backlog
 
@@ -163,7 +162,7 @@ Event model
 
 ### Trello/Kanban
 
-[Link to my Trello](https://trello.com/b/ekUkw2Vw/goride) 
+[Link to my Trello](https://trello.com/b/ekUkw2Vw/eventor) 
 
 ### Git/Deploy
 
