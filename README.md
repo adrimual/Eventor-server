@@ -16,7 +16,7 @@ If you enjoy making plans, Eventor is your App. Here you will be able to create 
 - **Filter Events** As a user I can search events by name of event or filter the list of events by the creator of the event, the capacity, where is it going to be and when, having the possibility to filter by Today, Tomorrow, This weekend, This week and All.
 - **Details of the event** As a public user I can see the details of each event but not the profiles of the participants.
 - **Joining events** As a registered user I can Join an event and see the participant's profile.
-- **Add an event** As a user I can create new riding events.
+- **Add an event** As a user I can create new events.
 - **Edit an event** As a user and owner of the event, I can modify the details of it.
 - **User profile** As a logged user I can see, edit or delete my profile, and see other rider profiles. 
 - **User Calendar** As a user I can see a calendar with the events I joined previously.
@@ -32,9 +32,7 @@ If you enjoy making plans, Eventor is your App. Here you will be able to create 
 
 ## Backlog
 
-• Fix the map function and add the option to create routes with it.
-
-• Add vehicles, for the moment is just an App to create events.
+• Fix the map function.
 
 • Add an internal chat.
 
